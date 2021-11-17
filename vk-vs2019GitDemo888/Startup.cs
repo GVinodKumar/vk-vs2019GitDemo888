@@ -32,7 +32,7 @@ namespace vk_vs2019GitDemo888
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("<h>Hello World!</h>");
                 });
             });
         }
